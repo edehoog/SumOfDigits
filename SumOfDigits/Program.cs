@@ -17,7 +17,6 @@ namespace SumOfDigits
                 sum += n % 10;
                 if (count % 2 != 0)
                 {
-
                     evenSum += n % 10;
                 }
                 n /= 10;
